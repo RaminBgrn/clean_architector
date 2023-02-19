@@ -32,6 +32,7 @@ class CurrentCityModel extends CurrentCityEntity {
           name: name,
           cod: cod,
         );
+
   CurrentCityModel copyWith({
     Coord? coord,
     List<Weather>? weather,
